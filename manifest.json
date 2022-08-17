@@ -14,17 +14,17 @@
                 "unit": "Hours"
             },
             "memory_per_cpu": {
-                "max": 16,
+                "max": 8,
                 "min": 8,
                 "default_value": 8,
                 "step": 2,
                 "unit": "GB"
             },
             "num_of_task": {
-                "max": 48,
+                "max": 24,
                 "min": 16,
-                "default_value": 16,
-                "step": 8
+                "default_value": 24,
+                "step": 1
             }
     },
     "require_upload_data": false,
